@@ -44,7 +44,7 @@ end)
 local Games = Window:NewTab("Games")
 local GamesSection = Games:NewSection("Games")
 
-GamesSection:NewButton("Driving Simulator", "Fallen King's OP Hack", function()
+GamesSection:NewButton("Fallen King's OP Script for Driving Simulator", "Fallen King's OP Script for Driving Simulator", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/iERa4ke4", true))()
 end)
 
@@ -116,6 +116,40 @@ GamesSection:NewButton("Survive and Kill the Killers in Area 51", "Fallen King's
     loadstring(game:HttpGet("https://pastebin.com/raw/a49VdC7u"))() 
 end)
 
+GamesSection:NewButton("Fallen King's Murder Mystery 2 OP Script", "Fallen King's Murder Mystery 2 OP Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
+
+loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end)
+
+GamesSection:NewButton("Fallen King's OP Script for Lumber Tycoon 2", "Fallen King's OP Script for Lumber Tycoon 2", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/lt2'))("")
+
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+end)
+
+GamesSection:NewButton("Fallen King's OP Script for Doors", "Fallen King's OP Script for Doors [Broken]", function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/R8QMbhzv"))()
+end)
+
+GamesSection:NewButton("Fallen King's OP Script for Counter Blox", "Fallen King's OP Script for Counter Blox", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fliskScript/jaran.vip/main/free.lua"))()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/0dDeYWUt'))()
+end)
+
+
+--Hubs
+local Hubs = Window:NewTab("Hubs")
+local HubsSection = Other:NewSection("Hubs")
+
+HubsSection:NewButton("Fallen King's - Murder Mystery 2, Counter Blox, Lumber Tycoon 2 and Doors OP Scripts", "Fallen King's - MM2, CB, LT2 and DOORS OP Scripts", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/MM2-op-script/main/string%20setup'))()
+end)
 
 
 --Other
@@ -161,7 +195,6 @@ end)
 OtherSection:NewButton("Roblox [Universal hub]", "Roblox [Universal hub]", function()
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))() 
 end)
-
 
 
 --Credits
