@@ -145,7 +145,7 @@ end)
 
 --Hubs
 local Hubs = Window:NewTab("Hubs")
-local HubsSection = Other:NewSection("Hubs")
+local HubsSection = Hubs:NewSection("Hubs")
 
 HubsSection:NewButton("Fallen King's Murder Mystery 2, Counter Blox, Lumber Tycoon 2 and Doors OP Scripts", "Fallen King's MM2, CB, LT2 and DOORS OP Scripts", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/MM2-op-script/main/string%20setup'))()
