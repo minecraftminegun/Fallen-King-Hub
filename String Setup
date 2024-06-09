@@ -77,7 +77,7 @@ GamesSection:NewButton("Pet Simulator X", "Fallen King's Op Pet Simulator X Scri
 end)
 
 GamesSection:NewButton("LUCKY BLOCKS Battlegrounds", "Fallen King's OP LUCKY BLOCKS Battlegrounds Script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/Lucky-Blocks-Battlegrounds-OP-script/main/LBB%20op%20script'))()
 end)
 
 GamesSection:NewButton("Car Crushers 2", "Fallen King's OP Car Crushers 2 Script", function()
