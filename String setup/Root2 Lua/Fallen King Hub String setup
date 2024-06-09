@@ -142,6 +142,10 @@ GamesSection:NewButton("Fallen King's OP Script for Counter Blox", "Fallen King'
 loadstring(game:HttpGet('https://pastebin.com/raw/0dDeYWUt'))()
 end)
 
+GamesSection:NewButton("Fallen King's OP KAT/cat Aimbot script", "Fallen King's OP K.A.T Aimbot script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/KAT-cat-op-script/main/cat%20gui'))()
+end)
+
 
 --Hubs
 local Hubs = Window:NewTab("Hubs")
