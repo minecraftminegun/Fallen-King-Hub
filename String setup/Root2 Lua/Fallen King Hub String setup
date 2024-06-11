@@ -151,10 +151,6 @@ end)
 local Hubs = Window:NewTab("Hubs")
 local HubsSection = Hubs:NewSection("Hubs")
 
-HubsSection:NewButton("Fallen King's Murder Mystery 2, Counter Blox, Lumber Tycoon 2 and Doors OP Scripts", "Fallen King's MM2, CB, LT2 and DOORS OP Scripts", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/MM2-op-script/main/string%20setup'))()
-end)
-
 HubsSection:NewButton("GhostHub", "GhostHub", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
 end)
@@ -183,6 +179,10 @@ end)
 --Other
 local Other = Window:NewTab("Other")
 local OtherSection = Other:NewSection("Other")
+
+OtherSection:NewButton("Fallen King's Murder Mystery 2, Counter Blox, Lumber Tycoon 2 and Doors OP Scripts", "Fallen King's MM2, CB, LT2 and DOORS OP Scripts", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/MM2-op-script/main/string%20setup'))()
+end)
 
 OtherSection:NewButton("Chat Spoofer", "Chat Spoofer", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
