@@ -39,6 +39,10 @@ PlayerSection:NewButton("Drawing Lib Player Radar", "Radar", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/stuff/main/PlayerRadar/source.lua'))()
 end)
 
+PlayerSection:NewButton("FLY GUI V3", "Fly like a fly!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
 
 --Games
 local Games = Window:NewTab("Games")
@@ -184,6 +188,14 @@ OtherSection:NewButton("Fallen King's Murder Mystery 2, Counter Blox, Lumber Tyc
     loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/MM2-op-script/main/string%20setup'))()
 end)
 
+OtherSection:NewButton("FLY GUI V3", "Fly like a fly!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+OtherSection:NewButton("BTools script", "Congrats, you are now Builderman!", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+end)
+
 OtherSection:NewButton("Chat Spoofer", "Chat Spoofer", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
 end)
@@ -205,6 +217,6 @@ end)
 local Other = Window:NewTab("Credits")
 local OtherSection = Other:NewSection("Credits")
 
-OtherSection:NewButton("Discord Server Invite", "Discord Server Invite Link", function()
+OtherSection:NewButton("Credits to minecraft_minegun#0 (click for more info)", "Discord Server Invite Link", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/discord-invite-link-string-setup/main/string%20setup'))() 
 end)
