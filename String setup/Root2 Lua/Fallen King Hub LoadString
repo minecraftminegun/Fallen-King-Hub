@@ -188,7 +188,7 @@ OtherSection:NewButton("Fallen King's Murder Mystery 2, Counter Blox, Lumber Tyc
     loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/MM2-op-script/main/string%20setup'))()
 end)
 
-OtherSection:NewButton("Fling Gui", "Go to sleep", function()
+OtherSection:NewButton("Fling GUI [v1.0.4]", "Go to sleep", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
 end)
 
