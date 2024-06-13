@@ -5,13 +5,20 @@ local Window = Library.CreateLib("Fallen King's Hub V1.22 [BETA]", "Ocean")
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
-
 MainSection:NewButton("CMD-X", "King", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()
 end)
 
 MainSection:NewButton("Esp", "WallHack", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/espice", true))()
+end)
+
+MainSection:NewButton("Fling GUI [v1.0.4]", "Go to sleep", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end)
+
+MainSection:NewButton("BTools", "Congrats, you are now a Builderman!", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
 end)
 
 MainSection:NewButton("Aimbot", "Aim", function()
@@ -196,7 +203,7 @@ OtherSection:NewButton("FLY GUI V3", "Fly like a fly!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
 end)
 
-OtherSection:NewButton("BTools script", "Congrats, you are now Builderman!", function()
+OtherSection:NewButton("BTools script", "Congrats, you are now a Builderman!", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
 end)
 
