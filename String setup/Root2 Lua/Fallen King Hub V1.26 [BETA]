@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Fallen King's Hub V1.25 [BETA]", "Synapse")
+local Window = Library.CreateLib("Fallen King's Hub V1.26 [BETA]", "Synapse")
 
 -- Main
 local Main = Window:NewTab("Main")
@@ -139,8 +139,6 @@ end)
 
 GamesSection:NewButton("Fallen King's OP Script for Lumber Tycoon 2", "Fallen King's OP Script for Lumber Tycoon 2", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/lt2'))("")
-
-loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
 end)
 
 GamesSection:NewButton("Fallen King's OP Script for Doors", "Fallen King's OP Script for Doors [Broken]", function()
