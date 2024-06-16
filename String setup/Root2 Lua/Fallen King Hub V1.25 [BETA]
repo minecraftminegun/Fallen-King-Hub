@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Fallen King's Hub V1.24 [BETA]", "Synapse")
+local Window = Library.CreateLib("Fallen King's Hub V1.25 [BETA]", "Synapse")
 
 -- Main
 local Main = Window:NewTab("Main")
@@ -59,7 +59,7 @@ GamesSection:NewButton("Fallen King's OP Script for Driving Simulator", "Fallen 
     loadstring(game:HttpGet("https://pastebin.com/raw/iERa4ke4", true))()
 end)
 
-GamesSection:NewButton("Arsenal Op", "Fallen King's Op Script", function()
+GamesSection:NewButton("Fallen King's OP Script for Arsenal Op", "Fallen King's OP Script for Arsenal", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
 end)
 
@@ -127,7 +127,7 @@ GamesSection:NewButton("Survive and Kill the Killers in Area 51", "Fallen King's
     loadstring(game:HttpGet("https://pastebin.com/raw/a49VdC7u"))() 
 end)
 
-GamesSection:NewButton("Fallen King's Murder Mystery 2 OP Script", "Fallen King's Murder Mystery 2 OP Script", function()
+GamesSection:NewButton("Fallen King's OP Script for Murder Mystery 2", "Fallen King's OP Script for Murder Mystery 2", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
 
 loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
