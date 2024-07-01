@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Fallen King's Hub V1.30 [BETA]", "Synapse")
+local Window = Library.CreateLib("Fallen King's Hub V1.30 [BETA]", "Serpent")
 
 -- Main
 local Main = Window:NewTab("Main")
